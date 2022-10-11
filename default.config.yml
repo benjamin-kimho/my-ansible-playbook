@@ -1,0 +1,22 @@
+downloads: ~/.ansible-downloads/
+
+# Dock
+configure_dock: true
+
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+  - Calendar
+dockitems_persist: []
+
+# Homebrew
+homebrew_installed_packages:
+  - git
+
+# Mas
+mas_installed_apps: []
+mas_uninstalled_apps: []
+mas_upgrade_all_apps: false
+mas_signin_dialog: false
