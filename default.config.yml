@@ -9,14 +9,33 @@ dockitems_remove:
   - Podcasts
   - 'App Store'
   - Calendar
-dockitems_persist: []
+  - Maps
+  - Safari
+  - Messages
+  - Photos
+  - FaceTime
+  - Contacts
+  - Reminders
+  - Notes
+  - Music
+  - News
+dockitems_persist:
+  - name: "System Preferences"
+  - name: "Messenger"
+    path: "/Applications/Messenger.app/"
 
 # Homebrew
 homebrew_installed_packages:
   - git
 
 # Mas
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 1032155965, name: "Foxit PDF Reader"}
+  - { id: 1480068668, name: "Messenger"}
+  - { id: 1451685025, name: "WireGuard"}
+  - { id: 1147396723, name: "WhatsApp Desktop"}
+  - { id: 497799835, name: "Xcode"}
+  - { id: 571213070, name: "DaVinci Resolve"}
 mas_uninstalled_apps: []
-mas_upgrade_all_apps: false
-mas_signin_dialog: false
+mas_upgrade_all_apps: true
+mas_signin_dialog: true
