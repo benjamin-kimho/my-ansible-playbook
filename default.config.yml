@@ -35,6 +35,9 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alacritty
   - font-fira-code-nerd-font
+  - docker
+  - brave-browser
+  - google-chrome
 
 # Mas
 mas_installed_apps:
