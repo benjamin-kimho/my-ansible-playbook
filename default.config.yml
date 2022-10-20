@@ -27,6 +27,14 @@ dockitems_persist:
 # Homebrew
 homebrew_installed_packages:
   - git
+  - fish
+  - node
+  - starship
+  - tart
+  - tmux
+homebrew_cask_apps:
+  - alacritty
+  - font-fira-code-nerd-font
 
 # Mas
 mas_installed_apps:
