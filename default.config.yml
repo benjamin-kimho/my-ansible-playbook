@@ -21,8 +21,13 @@ dockitems_remove:
   - News
 dockitems_persist:
   - name: "System Preferences"
+    pos: 1
+  - name: "Brave Browser"
+    path: "/Applications/Brave Browser.app/"
+    pos: 2
   - name: "Messenger"
     path: "/Applications/Messenger.app/"
+    pos: 3
 
 # Homebrew
 homebrew_installed_packages:
