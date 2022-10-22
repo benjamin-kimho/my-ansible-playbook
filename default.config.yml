@@ -55,6 +55,7 @@ homebrew_cask_apps:
 
 # Mas
 mas_installed_apps:
+  - { id: 1352778147, name: "Bitwarden"}
   - { id: 1032155965, name: "Foxit PDF Reader"}
   - { id: 1480068668, name: "Messenger"}
   - { id: 1451685025, name: "WireGuard"}
