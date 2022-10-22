@@ -46,6 +46,9 @@ homebrew_cask_apps:
   - brave-browser
   - google-chrome
   - visual-studio-code
+  - rider
+  - webstorm
+  - utm
 
 # Mas
 mas_installed_apps:
