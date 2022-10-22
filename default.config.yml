@@ -50,6 +50,7 @@ homebrew_cask_apps:
   - webstorm
   - utm
   - vlc
+  - teamviewer
 
 # Mas
 mas_installed_apps:
