@@ -44,6 +44,7 @@ homebrew_cask_apps:
   - font-fira-code-nerd-font
   - docker
   - brave-browser
+  - firefox
   - google-chrome
   - visual-studio-code
   - rider
