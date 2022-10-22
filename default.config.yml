@@ -49,6 +49,7 @@ homebrew_cask_apps:
   - rider
   - webstorm
   - utm
+  - vlc
 
 # Mas
 mas_installed_apps:
