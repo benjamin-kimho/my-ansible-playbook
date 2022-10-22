@@ -20,14 +20,16 @@ dockitems_remove:
   - Music
   - News
 dockitems_persist:
-  - name: "System Preferences"
-    pos: 1
   - name: "Brave Browser"
     path: "/Applications/Brave Browser.app/"
+    pos: 1
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
     pos: 2
   - name: "Messenger"
     path: "/Applications/Messenger.app/"
     pos: 3
+  - name: "System Preferences"
 
 # Homebrew
 homebrew_installed_packages:
@@ -43,6 +45,7 @@ homebrew_cask_apps:
   - docker
   - brave-browser
   - google-chrome
+  - visual-studio-code
 
 # Mas
 mas_installed_apps:
