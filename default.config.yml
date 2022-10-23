@@ -54,6 +54,7 @@ homebrew_cask_apps:
   - teamviewer
   - zoom
   - foxitreader
+  - iglance
 
 # Mas
 mas_installed_apps:
