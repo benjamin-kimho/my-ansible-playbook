@@ -42,6 +42,7 @@ homebrew_installed_packages:
   - tmux
 homebrew_cask_apps:
   - alacritty
+  - iterm2
   - font-fira-code-nerd-font
   - docker
   - brave-browser
