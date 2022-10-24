@@ -32,6 +32,7 @@ dockitems_persist:
   - name: "System Preferences"
 
 # Homebrew
+homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
   - git
   - fish
@@ -54,6 +55,8 @@ homebrew_cask_apps:
   - teamviewer
   - zoom
   - foxitreader
+homebrew_uninstalled_packages: []
+homebrew_cask_uninstalled_apps:
   - iglance
 
 # Mas
