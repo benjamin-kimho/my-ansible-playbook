@@ -34,8 +34,8 @@ dockitems_persist:
 # Homebrew
 homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
+  - zsh
   - git
-  - fish
   - node
   - starship
   - tart
@@ -55,7 +55,8 @@ homebrew_cask_apps:
   - teamviewer
   - zoom
   - foxitreader
-homebrew_uninstalled_packages: []
+homebrew_uninstalled_packages:
+  - fish
 homebrew_cask_uninstalled_apps:
   - iglance
 
