@@ -37,7 +37,6 @@ homebrew_installed_packages:
   - zsh
   - git
   - node
-  - starship
   - tart
   - tmux
 homebrew_cask_apps:
@@ -61,6 +60,7 @@ homebrew_cask_apps:
   - 1password
 homebrew_uninstalled_packages:
   - fish
+  - starship
 homebrew_cask_uninstalled_apps:
   - iglance
 
