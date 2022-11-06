@@ -13,3 +13,5 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+    - role: shell
+      tags: ['shell']
