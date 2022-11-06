@@ -57,6 +57,8 @@ homebrew_cask_apps:
   - zoom
   - foxitreader
   - rectangle
+  - git-credential-manager-core
+  - 1password
 homebrew_uninstalled_packages:
   - fish
 homebrew_cask_uninstalled_apps:
