@@ -39,9 +39,10 @@ homebrew_installed_packages:
   - node
   - tart
   - tmux
+  - starship
+  - mono-libgdiplus
 homebrew_cask_apps:
   - alacritty
-  - iterm2
   - font-fira-code-nerd-font
   - docker
   - brave-browser
@@ -60,9 +61,9 @@ homebrew_cask_apps:
   - 1password
 homebrew_uninstalled_packages:
   - fish
-  - starship
 homebrew_cask_uninstalled_apps:
   - iglance
+  - iterm2
 
 # Mas
 mas_installed_apps:
