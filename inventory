@@ -1,2 +1,2 @@
-[mac-m1]
+[mac_m1]
 localhost ansible_connection=local

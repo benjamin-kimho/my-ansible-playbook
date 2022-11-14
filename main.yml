@@ -1,4 +1,4 @@
-- hosts: mac-m1
+- hosts: mac_m1
 
   vars_files:
     - default.config.yml

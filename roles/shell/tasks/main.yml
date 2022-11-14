@@ -19,3 +19,9 @@
     src: dotfiles/.zshrc
     dest: ~/.zshrc
     mode: u=rw,g=r,o=r
+
+- name: Make sure .alacritty.yml is up to date
+  copy:
+    src: dotfiles/.alacritty.yml
+    dest: ~/.alacritty.yml
+    mode: u=rw,g=r,o=r
