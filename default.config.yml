@@ -24,12 +24,13 @@ dockitems_persist:
     pos: 2
 
 # Homebrew
+homebrew_taps:
+  - homebrew/cask-fonts
 homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
   - zsh
   - git
   - node
-  - tart
   - tmux
   - starship
   - mono-libgdiplus
@@ -39,24 +40,25 @@ homebrew_cask_apps:
   - docker
   - brave-browser
   - firefox
-  - google-chrome
   - google-drive
   - visual-studio-code
   - rider
   - webstorm
-  - utm
   - vlc
   - teamviewer
   - zoom
-  - foxitreader
   - rectangle
   - git-credential-manager-core
   - 1password
   - adobe-creative-cloud
   - nextcloud
   - notion
-homebrew_uninstalled_packages: []
-homebrew_cask_uninstalled_apps: []
+homebrew_uninstalled_packages:
+  - tart
+homebrew_cask_uninstalled_apps:
+  - google-chrome
+  - utm
+  - foxitreader
 
 # Mas
 mas_installed_apps:
