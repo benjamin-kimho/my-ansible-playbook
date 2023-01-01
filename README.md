@@ -1,3 +1,5 @@
 # my-ansible
-Creadits
+
+Credits
+
 - https://github.com/geerlingguy/ansible-collection-mac
