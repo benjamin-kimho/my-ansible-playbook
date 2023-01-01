@@ -40,6 +40,7 @@ homebrew_cask_apps:
   - brave-browser
   - firefox
   - google-chrome
+  - google-drive
   - visual-studio-code
   - rider
   - webstorm
@@ -51,11 +52,16 @@ homebrew_cask_apps:
   - rectangle
   - git-credential-manager-core
   - 1password
+  - adobe-creative-cloud
+  - nextcloud
+  - notion
 homebrew_uninstalled_packages: []
 homebrew_cask_uninstalled_apps: []
 
 # Mas
 mas_installed_apps:
+  - { id: 1475387142, name: "Tailscale"}
+  - { id: 1518425043, name: "Boop"}
   - { id: 1032155965, name: "Foxit PDF Reader"}
   - { id: 497799835, name: "Xcode"}
   - { id: 571213070, name: "DaVinci Resolve"}
