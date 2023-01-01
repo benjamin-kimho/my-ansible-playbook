@@ -7,13 +7,9 @@ dockitems_remove:
   - Launchpad
   - TV
   - Podcasts
-  - 'App Store'
-  - Calendar
   - Maps
   - Safari
-  - Messages
   - Photos
-  - FaceTime
   - Contacts
   - Reminders
   - Notes
@@ -26,10 +22,6 @@ dockitems_persist:
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
     pos: 2
-  - name: "Messenger"
-    path: "/Applications/Messenger.app/"
-    pos: 3
-  - name: "System Preferences"
 
 # Homebrew
 homebrew_upgrade_all_packages: false
@@ -59,19 +51,12 @@ homebrew_cask_apps:
   - rectangle
   - git-credential-manager-core
   - 1password
-homebrew_uninstalled_packages:
-  - fish
-homebrew_cask_uninstalled_apps:
-  - iglance
-  - iterm2
+homebrew_uninstalled_packages: []
+homebrew_cask_uninstalled_apps: []
 
 # Mas
 mas_installed_apps:
-  - { id: 1352778147, name: "Bitwarden"}
   - { id: 1032155965, name: "Foxit PDF Reader"}
-  - { id: 1480068668, name: "Messenger"}
-  - { id: 1451685025, name: "WireGuard"}
-  - { id: 1147396723, name: "WhatsApp Desktop"}
   - { id: 497799835, name: "Xcode"}
   - { id: 571213070, name: "DaVinci Resolve"}
 mas_uninstalled_apps: []
