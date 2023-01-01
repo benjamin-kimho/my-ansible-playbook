@@ -62,6 +62,9 @@ homebrew_cask_uninstalled_apps:
 
 # Mas
 mas_installed_apps:
+  - { id: 409203825, name: "Numbers"}
+  - { id: 409201541, name: "Pages"}
+  - { id: 409183694, name: "Keynote"}
   - { id: 1475387142, name: "Tailscale"}
   - { id: 1518425043, name: "Boop"}
   - { id: 1032155965, name: "Foxit PDF Reader"}
