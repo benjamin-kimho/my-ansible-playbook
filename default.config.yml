@@ -35,6 +35,7 @@ homebrew_installed_packages:
   - starship
   - mono-libgdiplus
 homebrew_cask_apps:
+  - dotnet-sdk
   - alacritty
   - font-fira-code-nerd-font
   - docker
@@ -44,6 +45,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - rider
   - webstorm
+  - datagrip
   - vlc
   - teamviewer
   - zoom
