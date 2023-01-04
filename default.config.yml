@@ -26,6 +26,7 @@ dockitems_persist:
 # Homebrew
 homebrew_taps:
   - homebrew/cask-fonts
+  - isen-ng/dotnet-sdk-versions
 homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
   - zsh
@@ -35,7 +36,7 @@ homebrew_installed_packages:
   - starship
   - mono-libgdiplus
 homebrew_cask_apps:
-  - dotnet-sdk
+  - dotnet-sdk6-0-400
   - alacritty
   - font-fira-code-nerd-font
   - docker
