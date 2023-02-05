@@ -110,3 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(starship init zsh)"
+
+export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin"
+
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"

@@ -27,6 +27,7 @@ dockitems_persist:
 homebrew_taps:
   - homebrew/cask-fonts
   - isen-ng/dotnet-sdk-versions
+  - homebrew/cask-drivers
 homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
   - zsh
@@ -35,6 +36,7 @@ homebrew_installed_packages:
   - tmux
   - starship
   - mono-libgdiplus
+  - magic-wormhole
 homebrew_cask_apps:
   - dotnet-sdk6-0-400
   - alacritty
@@ -42,6 +44,7 @@ homebrew_cask_apps:
   - docker
   - brave-browser
   - firefox
+  - google-chrome
   - google-drive
   - visual-studio-code
   - rider
@@ -56,10 +59,10 @@ homebrew_cask_apps:
   - adobe-creative-cloud
   - nextcloud
   - notion
+  - displaylink
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
-  - google-chrome
   - utm
   - foxitreader
 
@@ -69,6 +72,7 @@ mas_installed_apps:
   - { id: 409201541, name: "Pages"}
   - { id: 409183694, name: "Keynote"}
   - { id: 1475387142, name: "Tailscale"}
+  - { id: 1455214828, name: "MQTT Explorer"}
   - { id: 1518425043, name: "Boop"}
   - { id: 1032155965, name: "Foxit PDF Reader"}
   - { id: 497799835, name: "Xcode"}
