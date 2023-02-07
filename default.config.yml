@@ -72,8 +72,10 @@ mas_installed_apps:
   - { id: 409201541, name: "Pages"}
   - { id: 409183694, name: "Keynote"}
   - { id: 1475387142, name: "Tailscale"}
+  - { id: 506189836, name: "Harvest"}
   - { id: 1455214828, name: "MQTT Explorer"}
   - { id: 1518425043, name: "Boop"}
+  - { id: 1351639930, name: "Gifski"}
   - { id: 1032155965, name: "Foxit PDF Reader"}
   - { id: 497799835, name: "Xcode"}
   - { id: 571213070, name: "DaVinci Resolve"}
