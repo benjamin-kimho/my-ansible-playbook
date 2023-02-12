@@ -47,6 +47,7 @@ homebrew_cask_apps:
   - firefox
   - firefox-developer-edition
   - google-chrome
+  - chromedriver
   - google-drive
   - visual-studio-code
   - rider
