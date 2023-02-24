@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - mono-libgdiplus
   - magic-wormhole
 homebrew_cask_apps:
+  - dotnet-sdk7-0-100
   - dotnet-sdk6-0-400
   - alacritty
   - font-fira-code-nerd-font
@@ -69,6 +70,7 @@ homebrew_uninstalled_packages:
 homebrew_cask_uninstalled_apps:
   - utm
   - foxitreader
+  - owasp-zap
 
 # Mas
 mas_installed_apps:
