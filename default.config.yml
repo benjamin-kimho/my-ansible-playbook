@@ -58,7 +58,6 @@ homebrew_cask_apps:
   - teamviewer
   - zoom
   - rectangle
-  - git-credential-manager-core
   - 1password
   - adobe-creative-cloud
   - nextcloud
@@ -71,13 +70,16 @@ homebrew_cask_uninstalled_apps:
   - utm
   - foxitreader
   - owasp-zap
+  - git-credential-manager-core
 
 # Mas
 mas_installed_apps:
   - { id: 409203825, name: "Numbers"}
   - { id: 409201541, name: "Pages"}
   - { id: 409183694, name: "Keynote"}
-  - { id: 1475387142, name: "Tailscale"}
+  - { id: 1295203466, name: "Microsoft Remote Desktop"}
+  - { id: 1451685025, name: "WireGuard"}
+  - { id: 995124504, name: "ASUS Device Discovery"}
   - { id: 506189836, name: "Harvest"}
   - { id: 1455214828, name: "MQTT Explorer"}
   - { id: 1518425043, name: "Boop"}
