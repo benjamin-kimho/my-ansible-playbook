@@ -64,6 +64,8 @@ homebrew_cask_apps:
   - notion
   - displaylink
   - insomnia
+  - fork
+  - microsoft-teams
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
