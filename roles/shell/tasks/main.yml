@@ -9,11 +9,6 @@
   user: "name={{ ansible_user_id }} shell={{ homebrew_zsh_path }}"
   become: true
 
-- name: Install Oh My ZSH
-  shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  args:
-    creates: "/Users/{{ ansible_user_id }}/.oh-my-zsh"
-
 - name: Make sure .zshrc is up to date
   copy:
     src: dotfiles/.zshrc
