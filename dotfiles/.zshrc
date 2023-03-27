@@ -1,14 +1,9 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# eval "$(starship init zsh)"
-
 export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin"
 
 # Add .NET Core SDK tools
 export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
-
-alias home-projects="cd ~/Desktop/Projects"
-alias wm-projects="cd ~/Desktop/WM_Projects"
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -17,7 +12,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_TMUX_AUTOSTART=true
-
 
 ## OH_MY_POSH configuration
 
@@ -116,3 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+eval "$(starship init zsh)"
+
+alias home-projects="cd ~/Desktop/Projects"
+alias wm-projects="cd ~/Desktop/WM_Projects"
