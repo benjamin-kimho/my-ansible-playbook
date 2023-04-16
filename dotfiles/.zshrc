@@ -1,13 +1,3 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin"
-
-# Add .NET Core SDK tools
-export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
-
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -115,3 +105,15 @@ eval "$(starship init zsh)"
 
 alias home-projects="cd ~/Desktop/Projects"
 alias wm-projects="cd ~/Desktop/WM_Projects"
+alias dotnet-db-recreate="dotnet ef database drop -f && dotnet ef database update"
+alias dwr-proxy="dotnet watch run -- /ClientServerSettings:UseProxyServer=true /Serilog:MinimumLevel:Default=Information"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin"
+
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
+
+# If you come from bash you might have to change your $PATH.
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
