@@ -1,3 +1,5 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -107,8 +109,6 @@ alias home-projects="cd ~/Desktop/Projects"
 alias wm-projects="cd ~/Desktop/WM_Projects"
 alias dotnet-db-recreate="dotnet ef database drop -f && dotnet ef database update"
 alias dwr-proxy="dotnet watch run -- /ClientServerSettings:UseProxyServer=true /Serilog:MinimumLevel:Default=Information"
-
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin"
 
