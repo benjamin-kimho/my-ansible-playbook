@@ -4,6 +4,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_DEFAULT_SESSION_NAME=main
 
 ## OH_MY_POSH configuration
 
