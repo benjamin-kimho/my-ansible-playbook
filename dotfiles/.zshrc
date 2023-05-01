@@ -3,9 +3,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_DEFAULT_SESSION_NAME=main
-
 ## OH_MY_POSH configuration
 
 # Set name of the theme to load --- if set to "random", it will
@@ -76,6 +73,9 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git tmux dotnet yarn)
 
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_DEFAULT_SESSION_NAME=main
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -106,8 +106,6 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
-alias home-projects="cd ~/Desktop/Projects"
-alias wm-projects="cd ~/Desktop/WM_Projects"
 alias dotnet-db-recreate="dotnet ef database drop -f && dotnet ef database update"
 alias dwr-proxy="dotnet watch run -- /ClientServerSettings:UseProxyServer=true /Serilog:MinimumLevel:Default=Information"
 
@@ -118,3 +116,12 @@ export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
 
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
+
+export WM_PROJECTS="/Users/benjaminkimho/Desktop/WM_Projects"
+export ACHILLES="$WM_PROJECTS/Achilles"
+
+export PROJECTS="/Users/benjaminkimho/Desktop/Projects"
+
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#   exec tmux
+# fi
