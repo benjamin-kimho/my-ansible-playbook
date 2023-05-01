@@ -68,10 +68,10 @@ homebrew_cask_apps:
   - microsoft-teams
   - tailscale
   - dbeaver-community
-  - cloudflare-warp
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
+  - cloudflare-warp
   - utm
   - foxitreader
   - owasp-zap
