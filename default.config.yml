@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - microsoft-teams
   - tailscale
   - dbeaver-community
+  - tunnelblick
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
