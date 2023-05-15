@@ -33,7 +33,7 @@ homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
   - zsh
   - git
-  - node
+  - node@18
   - tmux
   - starship
   - mono-libgdiplus

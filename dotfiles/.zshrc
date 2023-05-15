@@ -116,6 +116,7 @@ export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
 
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 
 export WM_PROJECTS="/Users/benjaminkimho/Desktop/WM_Projects"
 export ACHILLES="$WM_PROJECTS/Achilles"
