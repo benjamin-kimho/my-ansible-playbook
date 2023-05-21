@@ -109,7 +109,7 @@ eval "$(starship init zsh)"
 alias dotnet-db-recreate="dotnet ef database drop -f && dotnet ef database update"
 alias dwr-proxy="dotnet watch run -- /ClientServerSettings:UseProxyServer=true /Serilog:MinimumLevel:Default=Information"
 
-export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin"
+export PATH="$PATH:/Users/benjaminkimho/Library/Python/3.9/bin" 
 
 # Add .NET Core SDK tools
 export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
@@ -117,6 +117,8 @@ export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 export WM_PROJECTS="/Users/benjaminkimho/Desktop/WM_Projects"
 export ACHILLES="$WM_PROJECTS/Achilles"
