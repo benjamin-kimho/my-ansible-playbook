@@ -118,13 +118,12 @@ export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include -I/opt/homebrew/opt/mysql-client/include"
+export LDFLAGS="-L/opt/homebrew/opt/mysql-client/lib"
 
 export WM_PROJECTS="/Users/benjaminkimho/Desktop/WM_Projects"
 export ACHILLES="$WM_PROJECTS/Achilles"
 
 export PROJECTS="/Users/benjaminkimho/Desktop/Projects"
-
-# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#   exec tmux
-# fi

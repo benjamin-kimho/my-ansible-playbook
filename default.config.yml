@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - starship
   - mono-libgdiplus
   - magic-wormhole
+  - mysql-client
 homebrew_cask_apps:
   - dotnet-sdk7-0-100
   - dotnet-sdk6-0-400
@@ -71,6 +72,7 @@ homebrew_cask_apps:
   - dbeaver-community
   - tunnelblick
   - signal
+  - slack
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
