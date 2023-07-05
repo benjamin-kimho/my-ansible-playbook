@@ -116,14 +116,7 @@ export PATH="$PATH:/Users/benjaminkimho/.dotnet/tools"
 
 # If you come from bash you might have to change your $PATH.
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
-export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include -I/opt/homebrew/opt/mysql-client/include"
-export LDFLAGS="-L/opt/homebrew/opt/mysql-client/lib"
-
-export WM_PROJECTS="/Users/benjaminkimho/Desktop/WM_Projects"
-export ACHILLES="$WM_PROJECTS/Achilles"
-
-export PROJECTS="/Users/benjaminkimho/Desktop/Projects"
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
