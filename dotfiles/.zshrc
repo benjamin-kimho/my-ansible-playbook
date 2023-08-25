@@ -125,3 +125,9 @@ export NVM_DIR="$HOME/.nvm"
 export EmailAccount__Host="localhost"
 export EmailAccount__Port="1025"
 export EmailAccount__EnableSSL=false
+
+export REPOS=$HOME/Projects/workingmouse/DevOps
+export DEVOPS_ROOT=$HOME/Projects/workingmouse/DevOps/infrastructure
+export TOOLS=$HOME/Projects/workingmouse/DevOps/tools
+# export PATH="$TOOLS/.bin:$PATH"
+# source "$TOOLS/tools.sh"
