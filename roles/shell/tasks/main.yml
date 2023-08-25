@@ -1,23 +1,51 @@
 ---
-- name: Make sure Zsh is in /etc/shells
+# - name: Make sure Zsh is in /etc/shells
+#   lineinfile:
+#     dest: /etc/shells
+#     line: "{{ homebrew_zsh_path }}"
+#   become: true
+
+# - name: Switch user to Zsh
+#   user: "name={{ ansible_user_id }} shell={{ homebrew_zsh_path }}"
+#   become: true
+
+# - name: Install Oh My ZSH
+#   shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#   args:
+#     creates: "/Users/{{ ansible_user_id }}/.oh-my-zsh"
+
+- name: Make sure Bash is in /etc/shells
   lineinfile:
     dest: /etc/shells
-    line: "{{ homebrew_zsh_path }}"
+    line: "{{ homebrew_bash_path }}"
   become: true
 
-- name: Switch user to Zsh
-  user: "name={{ ansible_user_id }} shell={{ homebrew_zsh_path }}"
+- name: Switch user to Bash
+  user: "name={{ ansible_user_id }} shell={{ homebrew_bash_path }}"
   become: true
 
-- name: Install Oh My ZSH
-  shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+- name: Install Oh My Bash
+  shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
   args:
-    creates: "/Users/{{ ansible_user_id }}/.oh-my-zsh"
+    creates: "/Users/{{ ansible_user_id }}/.oh-my-bash"
 
 - name: Make sure .zshrc is up to date
   copy:
     src: dotfiles/.zshrc
     dest: ~/.zshrc
+    mode: u=rw,g=r,o=r
+
+- name: Make sure .bashrc is up to date
+  copy:
+    src: dotfiles/.bashrc
+    dest: ~/.bashrc
+    mode: u=rw,g=r,o=r
+
+# Mac does not read .bashrc when terminal is opened like linux
+- name: Make sure .bash_profile is up to date
+  copy:
+    src: dotfiles/.bash_profile
+    dest: ~/.bash_profile
     mode: u=rw,g=r,o=r
 
 - name: Make sure .alacritty.yml is up to date
