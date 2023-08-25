@@ -35,6 +35,7 @@ homebrew_upgrade_all_packages: false
 homebrew_installed_packages:
   - zsh
   - bash
+  - bash-completion
   - git
   - nvm
   - tmux
