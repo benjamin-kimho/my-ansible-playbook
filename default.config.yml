@@ -78,6 +78,7 @@ homebrew_cask_apps:
   - dbeaver-community
   - slack
   - logi-options-plus
+  - syncthing
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
