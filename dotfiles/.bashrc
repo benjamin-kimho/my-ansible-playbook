@@ -171,3 +171,7 @@ export DEVOPS_ROOT=$HOME/Projects/workingmouse/DevOps/infrastructure
 export TOOLS=$HOME/Projects/workingmouse/DevOps/tools
 # export PATH="$TOOLS/.bin:$PATH"
 # source "$TOOLS/tools.sh"
+
+if [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
