@@ -13,7 +13,7 @@ export OSH='/Users/benjaminkimho/.oh-my-bash'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="font"
+OSH_THEME="axin"
 
 # Uncomment the following line to use case-sensitive completion.
 # OMB_CASE_SENSITIVE="true"
@@ -169,9 +169,8 @@ export EmailAccount__EnableSSL=false
 export REPOS=$HOME/Projects/workingmouse/DevOps
 export DEVOPS_ROOT=$HOME/Projects/workingmouse/DevOps/infrastructure
 export TOOLS=$HOME/Projects/workingmouse/DevOps/tools
-# export PATH="$TOOLS/.bin:$PATH"
+export PATH="$TOOLS/.bin:$PATH"
 # source "$TOOLS/tools.sh"
 
-if [ -z "$TMUX" ]; then
-    tmux attach -t default || tmux new -s default
-fi
+alias k="kubectl"
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

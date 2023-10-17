@@ -73,9 +73,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git tmux dotnet yarn)
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_DEFAULT_SESSION_NAME=main
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -131,3 +128,4 @@ export DEVOPS_ROOT=$HOME/Projects/workingmouse/DevOps/infrastructure
 export TOOLS=$HOME/Projects/workingmouse/DevOps/tools
 # export PATH="$TOOLS/.bin:$PATH"
 # source "$TOOLS/tools.sh"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
