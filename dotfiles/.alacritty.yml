@@ -14,16 +14,16 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
+  TERM: alacritty
 
-#window:
+window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
@@ -51,7 +51,7 @@
   #  y: 0
 
   # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
+  dynamic_padding: true
 
   # Window decorations
   #
@@ -158,7 +158,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 13.0
+  size: 14.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -427,7 +427,7 @@ font:
   #thickness: 0.15
 
 # Live config reload (changes require restart)
-#live_config_reload: true
+live_config_reload: true
 
 # Shell
 #
@@ -758,7 +758,13 @@ font:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
+  - { key: Left,     mods: Alt,     chars: "\x1bb"                       } # Skip word left
+  - { key: Right,    mods: Alt,     chars: "\x1bf"                       } # Skip word right
+  - { key: Left,     mods: Command, chars: "\x1bOH",   mode: AppCursor   } # Home
+  - { key: Right,    mods: Command, chars: "\x1bOF",   mode: AppCursor   } # End
+  - { key: Back,     mods: Command, chars: "\x15"                        } # Delete line
+  - { key: Back,     mods: Alt,     chars: "\x1b\x7f"                    } # Delete word
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
