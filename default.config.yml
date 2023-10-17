@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - git
   - nvm
   - tmux
+  - fzf
   - starship
   - awscli
   - azure-cli
@@ -70,7 +71,6 @@ homebrew_cask_apps:
   - adobe-creative-cloud
   - nextcloud
   - notion
-  # - displaylink
   - insomnia
   - fork
   - microsoft-teams
@@ -79,6 +79,8 @@ homebrew_cask_apps:
   - slack
   - logi-options-plus
   - syncthing
+  - mattermost
+  - qbittorrent
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
@@ -87,6 +89,8 @@ homebrew_cask_uninstalled_apps:
   - foxitreader
   - owasp-zap
   - git-credential-manager-core
+  - displaylink
+  - steam
 
 # Mas
 mas_installed_apps:
