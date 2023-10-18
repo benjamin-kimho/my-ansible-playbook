@@ -81,6 +81,7 @@ homebrew_cask_apps:
   - syncthing
   - mattermost
   - qbittorrent
+  - anytype
 homebrew_uninstalled_packages:
   - tart
 homebrew_cask_uninstalled_apps:
