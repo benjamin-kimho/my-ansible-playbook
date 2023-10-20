@@ -146,6 +146,7 @@ source "$OSH"/oh-my-bash.sh
 
 [[ -r "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh" ]] && . "$HOMEBREW_PREFIX/etc/profile.d/bash_completion.sh"
 
+alias k="kubectl"
 alias dotnet-db-recreate="dotnet ef database drop -f && dotnet ef database update"
 alias dwr-proxy="dotnet watch run -- /ClientServerSettings:UseProxyServer=true /Serilog:MinimumLevel:Default=Information"
 
@@ -171,6 +172,4 @@ export DEVOPS_ROOT=$HOME/Projects/workingmouse/DevOps/infrastructure
 export TOOLS=$HOME/Projects/workingmouse/DevOps/tools
 export PATH="$TOOLS/.bin:$PATH"
 # source "$TOOLS/tools.sh"
-
-alias k="kubectl"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

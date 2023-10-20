@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
+alias k="kubectl"
 alias dotnet-db-recreate="dotnet ef database drop -f && dotnet ef database update"
 alias dwr-proxy="dotnet watch run -- /ClientServerSettings:UseProxyServer=true /Serilog:MinimumLevel:Default=Information"
 
